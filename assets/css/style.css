@@ -52,12 +52,47 @@ p {
     margin-right: 25px;
 }
 
+main {
+    margin-bottom: 20px;
+}
+
+.AboutMe {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.Work {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.projectgroup1, .projectgroup2 {
+    display: inline-flex;
+    width: 50%;
+}
+
+.project1, .project2, .project3, .project4, .project5 {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project1 {
+    padding-top: 20px;
+}
+
+.resume {
+    padding: 20px;
+}
+
 footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
  footer h2 {
     display: inline-block;
     font-size: 20px;
