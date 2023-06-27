@@ -58,6 +58,7 @@ main {
 
 .AboutMe {
     padding: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: dashed;
 }
@@ -72,13 +73,19 @@ main {
 .projectgroup1, .projectgroup2 {
     display: flex;
     background-color: powderblue;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .project1, .project2, .project3, .project4, .project5 {
     border-radius: 5px;
-    padding: 20px;
-    border: dashed
+    border: dashed;
+}
+
+.project2, .project3, .project4, .project5 {
+    background: greenyellow;
+    justify-content: space-evenly;
 }
 
 .project1 {
@@ -87,10 +94,10 @@ main {
     padding-right: 20px;
 }
 
-.project2, .project4 {
-    padding: 20px;
-    border: dashed
+.projectgroup2 {
+    padding-bottom: 20px;
 }
+
 .resume {
     margin-bottom: 20px;
     border: dashed;
