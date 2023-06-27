@@ -58,32 +58,43 @@ main {
 
 .AboutMe {
     padding: 20px;
-    margin-bottom: 20px;
     border-radius: 5px;
+    border: dashed;
 }
 
 .Work {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    border: dashed;
 }
 
 .projectgroup1, .projectgroup2 {
-    display: inline-flex;
-    width: 50%;
+    display: flex;
+    background-color: powderblue;
+    padding: 20px;
 }
 
 .project1, .project2, .project3, .project4, .project5 {
-    margin-bottom: 20px;
     border-radius: 5px;
+    padding: 20px;
+    border: dashed
 }
 
 .project1 {
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.resume {
+.project2, .project4 {
     padding: 20px;
+    border: dashed
+}
+.resume {
+    margin-bottom: 20px;
+    border: dashed;
+    border-radius: 5px;
 }
 
 footer {
@@ -91,6 +102,8 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    border: dashed;
+    border-radius: 5px;
 }
 
  footer h2 {
