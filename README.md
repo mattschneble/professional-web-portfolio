@@ -20,7 +20,7 @@ This page is to be used to understand who I am, what some of my previous project
 
 ## Learning Points 
 
-Throughout the development of this webpage, I was able to learn about HTML and CSS elements and how they interact with diferent web browsers.
+Throughout the development of this webpage, I was able to grow my HTML and CSS skills as well as learn more advanced features/commands to aid in the functionality and interaction of web pages in different browsers..
 I used my knowledge gained to help reorganize code to make things easier to understand, when attributes had the same properties. 
 
 ### Matt Schneble
