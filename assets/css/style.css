@@ -10,7 +10,7 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -24,7 +24,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -42,9 +42,18 @@ a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color:grey;
+}
+
 p {
     color: black;
     font-size: 16px;
+}
+
+nav p {
+    color: #ffffff;
+    font-size: 100%;
 }
 
 .float-left {
@@ -54,6 +63,7 @@ p {
 
 main {
     margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .AboutMe {
@@ -76,6 +86,8 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .project1, .project2, .project3, .project4, .project5 {
@@ -85,11 +97,9 @@ main {
 
 .project2, .project3, .project4, .project5 {
     background: greenyellow;
-    justify-content: space-evenly;
 }
 
 .project1 {
-    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -99,14 +109,19 @@ main {
 }
 
 .resume {
+    padding: 20px;
     margin-bottom: 20px;
     border: dashed;
     border-radius: 5px;
 }
 
+.resume p {
+    padding-top: 20px;
+}
+
 footer {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
     border: dashed;
@@ -121,7 +136,7 @@ footer {
  footer nav {
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
  }
 
@@ -133,4 +148,8 @@ footer nav ul li {
     display: inline-block;
     margin-left: 25px;
     color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    
 }
